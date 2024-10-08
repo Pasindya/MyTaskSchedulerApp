@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/nt"
+    android:foregroundTint="#F6F8F6"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTaskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FAFBFA"
+        android:hint="Task Title"
+        android:textColor="#E8E9E8"
+        android:textColorLink="#E8E9E8" />
+
+    <EditText
+        android:id="@+id/editTextTaskDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#DBD8D8"
+        android:hint="Task Description"
+        android:textColor="#F2F1F1"
+        android:textColorHint="#EEF0EE"
+        android:textColorLink="#D3D3D3" />
+
+    <Button
+        android:id="@+id/buttonPickDateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E8E9E8"
+        android:text="Pick Date and Time"
+        android:textColor="#020202"
+        android:textColorLink="#F0EFEF" />
+
+    <EditText
+        android:id="@+id/editTextTimerDateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E8E9E8"
+        android:clickable="true"
+        android:focusable="false"
+        android:hint="Date and Time"
+        android:textColorLink="#E8E9E8" />
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/last"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C7C7C7"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#E0D8D8"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBoxDone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/textViewTaskTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Task Title"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewTaskDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Task Description"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#E9E2E2"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/buttonEdit"
+                android:layout_width="63dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="edit"
+                android:src="@drawable/edit" />
+
+            <ImageButton
+
+                android:id="@+id/buttonDelete"
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="delete"
+                android:src="@drawable/delete" />
+
+            <Button
+                android:id="@+id/buttonSetTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#EAF2EB"
+                android:text="Set Timer"
+                android:textColor="#0F0E0E" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nv"
+    android:foregroundTint="#0B0B0B"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Task Title -->
+
+
+    <!-- Due Date Display -->
+
+
+    <!-- Add Task Button (Floating Action Button) -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:contentDescription="Add Task"
+        android:tint="#121212"
+        app:backgroundTint="#EFF0EF"
+        app:rippleColor="#0F0F0F"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewTasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>

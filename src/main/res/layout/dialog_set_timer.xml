@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/nt"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTimerDateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Set Date and Time"
+        android:inputType="datetime"
+        android:textColor="#F6F8F6"
+        android:textColorLink="#F6F8F6" />
+
+</LinearLayout>
